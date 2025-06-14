@@ -1,3 +1,25 @@
+🌦️ WeatherApp
+Live: https://weather-5kwrhsx9n-adprasad1996s-projects.vercel.app/
+
+WeatherApp is a modern, responsive web application that allows users to search for real-time weather data by city name. It provides a clean UI to check temperature, humidity, wind speed, and more for any location around the globe.
+
+Features
+🔐 Authentication (Login/Signup with OTP verification)
+
+🌍 Search weather by city name
+
+🌡️ Displays temperature, humidity, wind speed, and weather conditions
+
+📱 Responsive design – mobile & desktop friendly
+
+📦 Secure backend with protected routes
+
+🔁 API Integration with OpenWeatherMap (or similar)
+
+🧪 Error handling for invalid inputs or API issues
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
