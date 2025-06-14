@@ -5,7 +5,6 @@ import Spin from "./Spin";
 
 const AuthForm = () => {
   const navigate = useNavigate();
-
   const [isSignup, setIsSignup] = useState(true);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
