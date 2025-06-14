@@ -21,8 +21,8 @@ const AuthForm = () => {
 
     try {
       const endpoint = isSignup
-        ? "http://localhost:5000/api/auth/register"
-        : "http://localhost:5000/api/auth/login";
+        ? "https://weatherapp-backend-neb4.onrender.com/api/auth/register"
+        : "https://weatherapp-backend-neb4.onrender.com/api/auth/login";
 
       const payload = isSignup
         ? { name, email, password }

@@ -8,7 +8,7 @@ function WeatherContextProvider({ children }) {
 
   const fetchWeather = async (city) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/weather/${city}`);
+      const response = await fetch(`https://weatherapp-backend-neb4.onrender.com/api/weather/${city}`);
       if (!response.ok) {
         throw new Error("Failed to fetch weather data");
       }

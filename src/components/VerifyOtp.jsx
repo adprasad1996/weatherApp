@@ -17,7 +17,7 @@ const VerifyOtp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/verify-otp",
+        "https://weatherapp-backend-neb4.onrender.com/api/auth/verify-otp",
         {
           email,
           otp,
